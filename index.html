@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">SRUJANA.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="qualifications.html">Qualifications</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Skills & Certifications
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="skills.html">Skills</a></li>
+            <li><a class="dropdown-item" href="certifications.html">Certifications</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7">
+        <p class="hero-subtitle mb-2"> </p>
+        <h1 class="hero-title mb-3">
+          Hi, I'm <span class="hero-highlight">Srujana</span><br>
+        
+        </h1>
+        <p class="hero-lead mb-4">
+          A computer science student and aspiring software developer focused  modern web development using Bootstrap, JavaScript, and UI best practices.
+        </p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="about.html" class="btn btn-main btn-lg">View Profile</a>
+          <a href="contact.html" class="btn btn-ghost btn-lg">Let’s Connect</a>
+        </div>
+      </div>
+      <div class="col-lg-5 text-center">
+        <div class="card shadow p-4">
+          <p class="text-uppercase small text-secondary mb-2">At a glance</p>
+          <h5 class="mb-3">What I love to work on</h5>
+          <ul class="list-unstyled mb-3">
+            <li>• Frontend with Bootstrap 5</li>
+            <li>• Java / JavaFX applications</li>
+            <li>• Clean UI & simple UX</li>
+          </ul>
+          <a href="skills.html" class="btn btn-outline-info btn-sm">Explore Skills</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container mt-4">
+  <div class="alert alert-info" role="alert">
+    This portfolio is fully responsive and built with Bootstrap 5, showcasing my profile, qualifications, skills, certifications, and contact details.
+  </div>
+</div>
+
+<div class="container my-5">
+  <h2 class="section-title">Highlights</h2>
+  <div id="highlightCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#highlightCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#highlightCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#highlightCarousel" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner shadow">
+      <div class="carousel-item active bg-dark text-white p-5" style="min-height:200px;">
+        <div class="d-flex flex-column justify-content-center h-100">
+          <h3>Modern Web Interfaces</h3>
+          <p class="mt-3">I design and code responsive layouts using Bootstrap 5 utilities, grids, and components.</p>
+        </div>
+      </div>
+      <div class="carousel-item bg-primary text-white p-5" style="min-height:200px;">
+        <div class="d-flex flex-column justify-content-center h-100">
+          <h3>Strong Academic Foundation</h3>
+          <p class="mt-3">My academic work reflects solid fundamentals in programming, algorithms, and software engineering.</p>
+        </div>
+      </div>
+      <div class="carousel-item bg-secondary text-white p-5" style="min-height:200px;">
+        <div class="d-flex flex-column justify-content-center h-100">
+          <h3>Certified Skills</h3>
+          <p class="mt-3">Several online certifications back my continuous learning in web and Java development.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#highlightCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#highlightCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div class="container my-5">
+  <h2 class="section-title">More About Me</h2>
+  <div class="accordion" id="aboutAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Career Objective
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show"
+           aria-labelledby="headingOne" data-bs-parent="#aboutAccordion">
+        <div class="accordion-body">
+          To secure a role as a software developer where I can apply my Java and web development skills, learn from real products, and contribute to thoughtful user experiences.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Technical Interests
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse"
+           aria-labelledby="headingTwo" data-bs-parent="#aboutAccordion">
+        <div class="accordion-body">
+          Frontend development with Bootstrap and JavaScript, Java/JavaFX applications, UI design, and growth experiments for digital products.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container text-center my-4">
+  <button type="button" class="btn btn-main" data-bs-toggle="modal" data-bs-target="#introModal">
+    Quick Intro
+  </button>
+</div>
+
+<div class="modal fade" id="introModal" tabindex="-1" aria-labelledby="introModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="introModalLabel">About This Portfolio</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This portfolio demonstrates Bootstrap 5 components such as navbar, grid system, cards, buttons, forms, tables, progress bars, badges, alerts, modal, accordion, dropdown, and carousel in a single cohesive design.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">Close</button>
+        <a href="about.html" class="btn btn-main">Go to About</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="text-white text-center py-3">
+  <small>&copy; 2026 Srujana Byagari. All rights reserved.</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
